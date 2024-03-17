@@ -1,0 +1,148 @@
+body {
+    background-color: white;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    margin: 20px;
+    font-family: "Inter", serif;
+    padding: 3vw;
+}
+
+.top{
+    text-align: center;
+}
+
+.nav{
+    display: flex;
+    justify-content: space-around;
+    padding: 1vh;
+    font-size: 17px;
+    color: darkgray;
+}
+
+hr {
+    border: none;
+    height: 3px;
+    /* Set the hr color */
+    color: black;  /* old IE */
+    background-color: black;  /* Modern Browsers */
+}
+
+.link {
+    text-decoration: none;
+    color: inherit;
+}
+
+a {
+    text-decoration: none;
+    color: darkgray;
+}
+
+a:hover{
+    color: red;
+}
+
+.link:hover{
+    color: black;
+}
+
+.nav-item.active {
+    background-color: #4CAF50;
+}
+
+.banner {
+    width: 100%;
+}
+
+.title-holder{
+    display: flex;
+    justify-content: center;
+}
+
+.title {
+    text-align: center;
+    font-family: "Castoro", serif;
+    text-shadow: 2px 2px 2px lightgray;
+    font-size: 6vw;
+    padding-top: 10px;
+    padding-bottom:5px;
+    /* background-image: url("IMAGES/c0ded24b-dd4a-49a8-8d25-26dc076dce81_1818x1228.webp"); */
+    background-position: top;
+}
+
+.container {
+    column-width: 300px;
+    column-gap: 2em;
+    margin-top: 10px;
+    padding: 5px;
+    margin-left: 5vw;
+    margin-right: 5vw;
+}
+
+.paragraph {
+    margin-top: 0px;
+    font-size: 1.2em;
+}
+
+.paragraph-title {
+    font-size: 1.7em;
+}
+
+.stories {
+    display: flex;
+    padding: 10px;
+    justify-content: center;
+}
+
+.compress{
+    max-width: 80%;
+}
+
+.contact {
+    padding: 10px;
+    font-size: 1.2em
+}
+
+.col-img {
+    width: 45%;
+}
+
+body#contact div#contact, body#about div#about, body#news div#news, body#features div#features { 
+    font-weight: bold;
+    color: black;
+}
+
+.contact-page {
+    display: flex;
+    justify-content: center;
+}
+
+.new-font {
+    font-size: 1.2em;
+}
+
+img {
+    border: 5px solid black;
+}
+
+.image-holder{
+    /* display: flex;
+    justify-content: center; */
+}
+
+@media only screen and (max-device-width: 480px){
+    .nav{
+        flex-direction: column;
+        text-align: center;
+        justify-content: space-around;
+        font-size: 17px;
+        color: darkgray;
+    }
+    .nav-item{
+        font-size: 1.2em;
+    }
+
+    .title{
+        font-size: 2.2em;
+    }
+}
